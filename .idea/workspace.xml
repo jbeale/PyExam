@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="36" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="5" column="8" selection-start="156" selection-end="156" vertical-scroll-proportion="0.094339624" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="6" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="1470">
+            <state line="43" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -61,7 +61,7 @@
       <file leaf-file-name="take.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/templates/assessments/take.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="35" selection-start="2314" selection-end="2314" vertical-scroll-proportion="-40.0" vertical-offset="0" max-vertical-offset="1275">
+            <state line="28" column="32" selection-start="910" selection-end="910" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1320">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -72,7 +72,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/static/assessments/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="17" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+            <state line="32" column="8" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -87,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TakeHelper.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TakeHelper.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/TakeHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="50" selection-start="203" selection-end="203" vertical-scroll-proportion="0.09453782" vertical-offset="0" max-vertical-offset="952">
+            <state line="7" column="19" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -143,20 +143,19 @@
         <option value="$PROJECT_DIR$/pyexam/pyexam/urls.py" />
         <option value="$PROJECT_DIR$/pyexam/assessments/templates/assessments/studentredeem.html" />
         <option value="$PROJECT_DIR$/pyexam/assessments/models.py" />
-        <option value="$PROJECT_DIR$/pyexam/assessments/static/assessments/style.css" />
         <option value="$PROJECT_DIR$/pyexam/assessments/urls.py" />
         <option value="$PROJECT_DIR$/pyexam/assessments/static/assessments/script.js" />
         <option value="$PROJECT_DIR$/pyexam/assessments/views.py" />
-        <option value="$PROJECT_DIR$/pyexam/assessments/templates/assessments/take.html" />
         <option value="$PROJECT_DIR$/pyexam/assessments/TakeHelper.py" />
+        <option value="$PROJECT_DIR$/pyexam/assessments/templates/assessments/take.html" />
+        <option value="$PROJECT_DIR$/pyexam/assessments/static/assessments/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
     <option name="y" value="22" />
-    <option name="width" value="960" />
-    <option name="height" value="1111" />
+    <option name="width" value="1280" />
+    <option name="height" value="941" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -191,14 +190,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="FinalExam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.3.2 (/usr/local/bin/python3.3) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -526,7 +517,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="22" width="960" height="1111" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="941" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -534,7 +525,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31458333" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2359375" sideWeight="0.67027557" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -617,20 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyexam/assessments/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="36" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyexam/assessments/static/assessments/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="17" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyexam/assessments/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="1" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
@@ -661,27 +638,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyexam/assessments/views.py">
+    <entry file="file://$PROJECT_DIR$/pyexam/assessments/TakeHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="6" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="1470">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state line="7" column="19" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyexam/assessments/templates/assessments/take.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="35" selection-start="2314" selection-end="2314" vertical-scroll-proportion="-40.0" vertical-offset="0" max-vertical-offset="1275">
+        <state line="28" column="32" selection-start="910" selection-end="910" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1320">
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyexam/assessments/TakeHelper.py">
+    <entry file="file://$PROJECT_DIR$/pyexam/assessments/static/assessments/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="203" selection-end="203" vertical-scroll-proportion="0.09453782" vertical-offset="0" max-vertical-offset="952">
+        <state line="32" column="8" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyexam/assessments/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyexam/assessments/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="156" selection-end="156" vertical-scroll-proportion="0.094339624" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>

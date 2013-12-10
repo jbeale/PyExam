@@ -30,7 +30,7 @@
     border-left:1px solid #ddd;
     border-right:1px solid #ddd;
     margin:0 -15px 0px;
-    height:300px;
+    min-height:300px;
 }
 
 .actions {
