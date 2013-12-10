@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="/static/assessments/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/static/assessments/style.css" rel="stylesheet"/>
+    </head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+
+</nav>
+
+<div id="layout-area">
+    <div id="activity">
+        {% if success %}
+        <div id="progress">
+            <div id="progtext">Welcome</div>
+        </div>
+        <div id="item">
+            <div class="staticitem">
+                Welcome to your exam. Once you click Begin Assessment, you will need to complete the assessment before ending this session.
+            </div>
+        </div>
+        <div class="actions">
+            <button type="button" class="btn btn-primary" id="checkAnswerBtn" onclick="location.href='/assessment/take/{{ takeId }}/'">Begin Assessment</button>
+        </div>
+        {% else %}
+        <div id="progress">
+            <div id="progtext">An error has occurred</div>
+        </div>
+        <div id="item">
+            <div class="staticitem">
+                An invalid exam key has been provided. Please check your link or ask your instructor for the correct exam key.
+            </div>
+        </div>
+        <div class="actions">
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/static/assessments/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

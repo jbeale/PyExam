@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="/static/assessments/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/static/assessments/style.css" rel="stylesheet"/>
+    </head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+
+</nav>
+
+<div id="layout-area">
+    <div id="activity">
+        <div id="progress">
+            {% if complete %}
+            <div id="progtext">Assignment Complete!</div>
+            {% else %}
+            <div id="progtext">Question {{ currentQuestionNumber }}</div>
+            {% endif %}
+        </div>
+        <div id="item">
+            {% if complete %}
+            <div class="staticitem">
+            You have completed your assignment!<br>
+            <span style="font-size:24px">Your Score: {{ score }}</span>
+            </div>
+            {% else %}
+            <div class="item-mc">
+                <div class="question-text">{{ item.question_text }}</div>
+                <div class="option">
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="answer" id="optionsRadios1" value="A">
+                        {{ item.answer1 }}
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="answer" id="optionsRadios2" value="B">
+                        {{ item.answer2 }}
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="answer" id="optionsRadios3" value="C">
+                        {{ item.answer3 }}
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="answer" id="optionsRadios4" value="D">
+                        {{ item.answer4 }}
+                      </label>
+                    </div>
+                </div>
+            </div>
+            <div id="feedback">
+                feedback goes here
+            </div>
+            {% endif %}
+        </div>
+        <div class="actions">
+            {% if complete %}
+            {% else %}
+            <button type="button" class="btn btn-primary" id="checkAnswerBtn">Check Answer</button>
+            <button type="button" class="btn btn-primary" id="nextQuestionBtn" onclick="location.reload()">Next Question</button>
+            {% endif %}
+        </div>
+        <input type="hidden" name="type" id="qtype" value="{{ item.question_type }}"/>
+    </div>
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/static/assessments/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/assessments/script.js"></script>
+
+</body>
+
+</html>
