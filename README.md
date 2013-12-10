@@ -3,6 +3,8 @@ JUSTIN BEALE'S FANCY PYTHON FINAL EXAM PROJECT
 
 This is my final exam project for the Python class that is some CSE xxx number that I don't know at Oakland University in Rochester, Michigan.
 
+THE MAJORITY OF THIS CODE WAS QUICKLY WRITTEN 5 HOURS BEFORE THE DUE DATE WITH NO CARE FOR EDGE CASES, CLEANLINESS, OR BEST PRACTICE. I AM NOT A PYTHON DEVELOPER!
+
 Tech
 --------
 
