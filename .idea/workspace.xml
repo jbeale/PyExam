@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="156" selection-end="156" vertical-scroll-proportion="0.094339624" vertical-offset="0" max-vertical-offset="795">
+            <state line="23" column="29" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="3" column="28" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -50,7 +50,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+            <state line="43" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1470">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -58,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="take.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="take.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/templates/assessments/take.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="32" selection-start="910" selection-end="910" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1320">
+            <state line="59" column="21" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.35797665" vertical-offset="609" max-vertical-offset="1470">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -81,7 +81,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyexam/assessments/static/assessments/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="20" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+            <state line="23" column="28" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -144,11 +144,11 @@
         <option value="$PROJECT_DIR$/pyexam/assessments/templates/assessments/studentredeem.html" />
         <option value="$PROJECT_DIR$/pyexam/assessments/models.py" />
         <option value="$PROJECT_DIR$/pyexam/assessments/urls.py" />
-        <option value="$PROJECT_DIR$/pyexam/assessments/static/assessments/script.js" />
         <option value="$PROJECT_DIR$/pyexam/assessments/views.py" />
         <option value="$PROJECT_DIR$/pyexam/assessments/TakeHelper.py" />
-        <option value="$PROJECT_DIR$/pyexam/assessments/templates/assessments/take.html" />
         <option value="$PROJECT_DIR$/pyexam/assessments/static/assessments/style.css" />
+        <option value="$PROJECT_DIR$/pyexam/assessments/static/assessments/script.js" />
+        <option value="$PROJECT_DIR$/pyexam/assessments/templates/assessments/take.html" />
       </list>
     </option>
   </component>
@@ -592,15 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyexam/assessments/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyexam/assessments/static/assessments/take.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="6" selection-start="0" selection-end="2120" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="990">
@@ -614,13 +605,6 @@
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyexam/assessments/static/assessments/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="20" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,15 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyexam/assessments/templates/assessments/take.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="910" selection-end="910" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="1320">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyexam/assessments/static/assessments/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="8" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
@@ -661,19 +636,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pyexam/assessments/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="29" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyexam/assessments/static/assessments/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="28" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyexam/assessments/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pyexam/assessments/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+        <state line="43" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1470">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyexam/assessments/models.py">
+    <entry file="file://$PROJECT_DIR$/pyexam/assessments/templates/assessments/take.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="156" selection-end="156" vertical-scroll-proportion="0.094339624" vertical-offset="0" max-vertical-offset="795">
-          <folding />
+        <state line="59" column="21" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.35797665" vertical-offset="609" max-vertical-offset="1470">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

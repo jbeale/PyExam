@@ -25,38 +25,48 @@
             <span style="font-size:24px">Your Score: {{ score }}</span>
             </div>
             {% else %}
-            <div class="item-mc">
-            {% autoescape off %}
-
-                <div class="question-text">{{ item.question_text }}</div>
-                {% endautoescape %}
-                <div class="option">
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="answer" id="optionsRadios1" value="A">
-                        {{ item.answer1 }}
-                      </label>
+                {% if item.question_type == "mc" %}
+                    <div class="item-mc">
+                        {% autoescape off %}
+                        <div class="question-text">{{ item.question_text }}</div>
+                        {% endautoescape %}
+                        <div class="option">
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="answer" id="optionsRadios1" value="A">
+                                {{ item.answer1 }}
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="answer" id="optionsRadios2" value="B">
+                                {{ item.answer2 }}
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="answer" id="optionsRadios3" value="C">
+                                {{ item.answer3 }}
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="answer" id="optionsRadios4" value="D">
+                                {{ item.answer4 }}
+                              </label>
+                            </div>
+                        </div>
                     </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="answer" id="optionsRadios2" value="B">
-                        {{ item.answer2 }}
-                      </label>
+                {% elif item.question_type == "fitb" %}
+                    <div class="item-fitb">
+                        {% autoescape off %}
+                        <div class="question-text">{{ item.question_text }}</div>
+                        {% endautoescape %}
+                        <div class="option">
+                            <input type="text" placeholder="Answer" name="answer" id="fitbanswer" />
+                        </div>
                     </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="answer" id="optionsRadios3" value="C">
-                        {{ item.answer3 }}
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="answer" id="optionsRadios4" value="D">
-                        {{ item.answer4 }}
-                      </label>
-                    </div>
-                </div>
-            </div>
+                {% endif %}
             <div id="feedback">
                 feedback goes here
             </div>

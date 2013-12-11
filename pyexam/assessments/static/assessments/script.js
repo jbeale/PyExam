@@ -11,6 +11,8 @@ function grade() {
     var ans = "";
     if (type == "mc") {
         ans = $("input:radio[name=answer]:checked").val()
+    } else if (type=="fitb") {
+        ans = $("input:text[name=answer]").val()
     }
     var request = $.ajax({
         url: "answercheck",
